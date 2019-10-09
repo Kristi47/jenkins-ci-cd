@@ -6,4 +6,9 @@ let sum = (a , b) => {
     return a+b
 }
 
+
+let multiply = (a , b) => {
+    return a*b
+}
+
 module.exports = {toLowerCase, sum}
