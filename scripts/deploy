@@ -2,5 +2,5 @@
 cd /var/my-app/jenkins-ci-cd
 sudo git pull origin master
 sudo npm install
-sudo pm2 restart index.js --update-env
+sudo pm2 start index.js --update-env
 exit
