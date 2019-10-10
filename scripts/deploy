@@ -1,6 +1,6 @@
 #!/bin/sh
-cd /var/my-app
-git pull origin master
-npm install
-node index.js
+cd /var/my-app/jenkins-ci-cd
+sudo git pull origin master
+sudo npm install
+sudo node index.js
 exit
