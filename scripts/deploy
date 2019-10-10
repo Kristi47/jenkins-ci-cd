@@ -1,6 +1,6 @@
 #!/bin/sh
-cd /var/my-app/jenkins-
-git pull
+cd /var/my-app
+git pull origin master
 npm install
-pm2 restart all
+node index.js
 exit
