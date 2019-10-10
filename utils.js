@@ -39,4 +39,9 @@ let test7 = (a , b) => {
     return a*b
 }
 
+let test8 = (a , b) => {
+    return a*b
+}
+
+
 module.exports = {toLowerCase, sum, multiply, test}
