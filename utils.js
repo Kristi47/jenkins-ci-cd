@@ -11,4 +11,8 @@ let multiply = (a , b) => {
     return a*b
 }
 
-module.exports = {toLowerCase, sum}
+let test = (a , b) => {
+    return a*b
+}
+
+module.exports = {toLowerCase, sum, multiply, test}
