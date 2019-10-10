@@ -18,6 +18,10 @@ app.get('/about', (req, res) => {
     res.send("about us page")
 })
 
+app.get('/contact', (req, res) => {
+    res.send("contact us page")
+})
+
 app.listen(3000, ()=>{
     console.log("Server listening on port 3000")
 })
