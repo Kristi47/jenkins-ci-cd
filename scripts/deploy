@@ -1,6 +1,6 @@
--#!/bin/sh
- cd /var/my-app
- git pull
- npm install
- pm2 restart all
- exit
+#!/bin/sh
+cd /var/my-app/jenkins-
+git pull
+npm install
+pm2 restart all
+exit
