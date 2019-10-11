@@ -50,6 +50,10 @@ app.get('/test6', (req, res) => {
     res.send("test6 page")
 })
 
+app.get('/test7', (req, res) => {
+    res.send("test7 page")
+})
+
 app.listen(3000, ()=>{
     console.log("Server listening on port 3000")
 })
