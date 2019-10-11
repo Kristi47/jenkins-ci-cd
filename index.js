@@ -35,7 +35,11 @@ app.get('/test2', (req, res) => {
 })
 
 app.get('/test3', (req, res) => {
-    res.send("test2 page")
+    res.send("test3 page")
+})
+
+app.get('/test4', (req, res) => {
+    res.send("test4 page")
 })
 
 app.listen(3000, ()=>{
