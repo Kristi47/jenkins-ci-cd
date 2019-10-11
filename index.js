@@ -46,6 +46,10 @@ app.get('/test5', (req, res) => {
     res.send("test5 page")
 })
 
+app.get('/test6', (req, res) => {
+    res.send("test6 page")
+})
+
 app.listen(3000, ()=>{
     console.log("Server listening on port 3000")
 })
